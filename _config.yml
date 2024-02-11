@@ -37,7 +37,6 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
       author_profile: true
       show_date: true
       read_time: true
@@ -49,7 +48,6 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: single
       author_profile: true
 
 paginate: 5
