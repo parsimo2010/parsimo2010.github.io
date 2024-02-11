@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: "Hello"
 ---
-# Hello
+
 Below you will see some posts I wrote.  I hope you like them.

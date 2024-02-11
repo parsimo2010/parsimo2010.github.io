@@ -2,7 +2,7 @@
 layout: posts
 title:  "A new project!"
 date:   2024-02-11 19:00:00 -0500
-categories: sdr project_log
+categories: sdr_project_log
 ---
 
 ## Welcome!
