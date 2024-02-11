@@ -3,7 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: "Hello"
+title: Hello
+layout: single
+author_profile: true
 ---
 
 Below you will see some posts I wrote.  I hope you like them.
