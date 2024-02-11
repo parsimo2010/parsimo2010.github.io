@@ -4,7 +4,6 @@
 
 layout: home
 title: Hello
-layout: single
 author_profile: true
 ---
 
