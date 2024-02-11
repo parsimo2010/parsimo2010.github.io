@@ -60,8 +60,6 @@ author:
 
 include: 
  - _pages
- - _navigation
- - _posts
 
 minimal_mistakes_skin: "dark"
 locale: "en-US"
