@@ -4,10 +4,5 @@
 
 layout: home
 ---
-# This is a Header
-
-This is some text....
-
-And a link to a website like [facebook](https://facebook.com)
-
-Then I guess some other things
+# Hello
+Below you will see some posts I wrote.  I hope you like them.

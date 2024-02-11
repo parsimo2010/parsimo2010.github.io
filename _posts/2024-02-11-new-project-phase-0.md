@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "A new project!"
-date:   2023-10-14 19:00:00 -0500
+date:   2024-02-11 19:00:00 -0500
 categories: sdr project_log
 ---
 
@@ -21,7 +21,7 @@ I didn't want to copy him, because where is the fun in that?  I have a amateur r
 I thought about this in my head for about two weeks and scoured Amazon to see if I could find good enough components, and found what I think are the key pieces, and I'm pretty sure the remaining pieces that aren't quite nailed down will be affordable and available, once I figure out exactly what I need.  The basic concept of this radio starts with the receiver chain.  There will be quadrature downconversion to a low IF, and a Tayloe detector for a final downconversion step to baseband.  I came up with this concept in an attempt to avoid what I percieve as issues that some common designs present in desiging a simple/cheap radio.  A superheterodyne radio without quadradrature down conversion requires a lot of filtering for image rejection.  Designing all those filters would limit the flexibility of the radio, and it would take me longer to think through the filtering stages.  One way to fix the image problem is quadrature downconversion.  Images are still present, but they are 180 degrees out of phase and having the information from the quadrature channel allows us to do image rejection with DSP.  Once you've decided to do quadrature downconversion, then almost immediately you think about a zero-IF design (at least I did).  A big problem with zero-IF designs is a DC offset, especially present when you use low quality components, and I am worried about my components being low quality since I am sticking to a low budget.  So we can do quadrature downconversion to a low IF, then use a variant of the popular Tayloe detector to downconvert to baseband.  We cannot use the Tayloe detector directly because I don't think I can find any cheap multiplexers that switch as fast as 600 MHz (150 MHz x 4).  The key components that I picked are the AD831 RF mixer, of which we'll need two, an SI5351, which generates three clock signals for us and they can be phase controlled, and CD74HC4067 multiplexers, because they are cheap.  I know I will need an op-amp for the Tayloe detector, but I have not picked exactly the one I want yet.  There will also need to be a collection of wires, cables, prototyping board, resistors, capacitors, and a power supply.  Finally, a Raspberry Pi Pico will sample the baseband I and Q channels with its ADC.  
 
 Then we need to consider the transmitter chain.  It will use PWM from the Pi Pico and a low pass filter to create I and Q channels, and a low pass filter to smooth it out to baseband.  Then that will be mixed with signals from the same SI5351 as the receiver chain into two more AD831 mixers,  The output will be combined into a single RF, which goes out to the antenna.  We can switch between receiving and transmitting to the antenna with another multiplexer.  There will probably need to be filtering, amplification, and bias voltages set around the design to make it functional.  We will add those things as needed in the individual development steps.  A schematic of my draft design is shown here
-![draft SDR design schematic](/assets/Draft-Schematic.jpg)
+![draft SDR design schematic](assets/images/Draft-Schematic.jpg)
 
 ## Cost estimates
 These prices are taken all from the time of writing this, for components that are available with Prime.  This radio could possibly be cheaper if you bought some things from AliExpress and waited a month for them to ship.  

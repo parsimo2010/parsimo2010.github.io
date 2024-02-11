@@ -18,14 +18,49 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Parsimo's Website
+title: "Parsimo's Website"
+title_separator: "|"
+subtitle: "Version 0.1"
+name: "Harris Butler"
 email: ""
-description: >- # this means to ignore newlines until "baseurl:"
-  A website by me (parsimo)
+description: "A website by me (parsimo)"
 # baseurl: /blog # the subpath of your site, e.g. /blog
-domain: parsimo2010.github.io
-url: https://parsimo2010.github.io # the base hostname & protocol for your site, e.g. http://example.com
-github_username: parsimo2010
+domain: "parsimo2010.github.io"
+url: "https://parsimo2010.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "parsimo2010/"
+github_username: "parsimo2010/parsimo2010.github.io"
+breadcrumbs: true
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      show_date: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+author:
+  name     : "Harris Butler"
+  avatar   : "/assets/images/profile.png"
+  bio      : "A nerd who plays with things he doesn't understand."
+  location : "Somewhere, USA"
+
+include: ["_pages"]
+minimal_mistakes_skin: "dark"
+locale: "en-US"
 
 # Build settings
 #theme: minima
