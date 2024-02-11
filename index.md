@@ -6,8 +6,8 @@ layout: home
 ---
 # This is a Header
 
-## This is a 2 Header
-
 This is some text....
 
-And a link to [my posts](./_posts/2023-10-14-welcome-to-jekyll.html)
+And a link to a website like [facebook](https://facebook.com)
+
+Then I guess some other things
