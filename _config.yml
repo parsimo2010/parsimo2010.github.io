@@ -31,24 +31,24 @@ repository: "parsimo2010/"
 github_username: "parsimo2010/parsimo2010.github.io"
 # breadcrumbs: true
 
-# defaults:
-#   # _posts
-#   - scope:
-#       path: ""
-#       type: posts
-#     values:
-#       author_profile: true
-#       show_date: true
-#       read_time: true
-#       comments: true
-#       share: true
-#       related: true
-#   # _pages
-#   - scope:
-#       path: ""
-#       type: pages
-#     values:
-#       author_profile: true
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
+      show_date: true
+      read_time: true
+      # comments: true
+      share: true
+      # related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: true
 
 # paginate: 5
 
