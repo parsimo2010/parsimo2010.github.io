@@ -1,12 +1,12 @@
 ---
 layout: posts
-title:  "A new project!"
+title:  "New Project- Phase 0"
 date:   2024-02-11 19:00:00 -0500
 categories: sdr_project_log
 author_profile: true
 ---
 
-## Welcome!
+## A new radio project!
 I'm starting a new project to design and build a radio, and I will log my progress here.  This is part zero, the description of the idea, my design constraints that I want to work within, and also my initial design concept.  Following this will be a series of parts where I describe the construction of each part in the order in which I accomplished them.  I'll probably have to change the design and add detail from my initial draft shown here, so once everything is complete, I will try to publish a final design schematic with all updates shown.
 
 ## The genesis and the concept

@@ -29,7 +29,7 @@ domain: "parsimo2010.github.io"
 url: "https://parsimo2010.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "parsimo2010/"
 github_username: "parsimo2010/parsimo2010.github.io"
-# breadcrumbs: true
+breadcrumbs: true
 
 defaults:
   # _posts
