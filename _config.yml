@@ -61,7 +61,7 @@ author:
 include: 
  - _pages
 
-# minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "dark"
 locale: "en-US"
 
 # Build settings
