@@ -29,28 +29,28 @@ domain: "parsimo2010.github.io"
 url: "https://parsimo2010.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "parsimo2010/"
 github_username: "parsimo2010/parsimo2010.github.io"
-breadcrumbs: true
+# breadcrumbs: true
 
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      author_profile: true
-      show_date: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      author_profile: true
+# defaults:
+#   # _posts
+#   - scope:
+#       path: ""
+#       type: posts
+#     values:
+#       author_profile: true
+#       show_date: true
+#       read_time: true
+#       comments: true
+#       share: true
+#       related: true
+#   # _pages
+#   - scope:
+#       path: ""
+#       type: pages
+#     values:
+#       author_profile: true
 
-paginate: 5
+# paginate: 5
 
 author:
   name     : "Harris Butler"
@@ -61,15 +61,15 @@ author:
 include: 
  - _pages
 
-minimal_mistakes_skin: "dark"
+# minimal_mistakes_skin: "dark"
 locale: "en-US"
 
 # Build settings
-#theme: minima
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-plugins:
-- jekyll-remote-theme 
-- jekyll-include-cache
+theme: minima
+# remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+# plugins:
+# - jekyll-remote-theme 
+# - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
