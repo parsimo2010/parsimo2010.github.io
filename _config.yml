@@ -52,11 +52,11 @@ github_username: "parsimo2010/parsimo2010.github.io"
 
 # paginate: 5
 
-author:
-  name     : "Harris Butler"
-  avatar   : "/assets/images/profile.png"
-  bio      : "A nerd who plays with things he doesn't understand."
-  location : "Somewhere, USA"
+# author:
+#   name     : "Harris Butler"
+#   avatar   : "/assets/images/profile.png"
+#   bio      : "A nerd who plays with things he doesn't understand."
+#   location : "Somewhere, USA"
 
 include: 
  - _pages
