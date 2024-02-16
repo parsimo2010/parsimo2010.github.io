@@ -55,7 +55,7 @@ defaults:
 author:
   name     : "Harris Butler"
   avatar   : "/assets/images/profile.png"
-  bio      : "A nerd who plays with things he doesn't understand."
+  bio      : "A nerd who tries to understand things by tinkering."
   location : "Somewhere, USA"
 
 include: 

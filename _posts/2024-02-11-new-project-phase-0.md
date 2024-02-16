@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "New Project: An SDR- Phase 0"
-date:   2024-02-11 19:00:00
+date:   2024-02-11
 categories: sdr_project_log
 author_profile: true
 ---

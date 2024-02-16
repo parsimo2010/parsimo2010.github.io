@@ -1,8 +1,7 @@
 ---
 layout: posts
-title:  "SDR Project- Phase 1"
-subtitle: "The clock source"
-date:   2024-02-12 19:00:00
+title:  "SDR Project Phase 1: Oscillator"
+date:   2024-02-12
 categories: sdr_project_log
 author_profile: true
 ---
