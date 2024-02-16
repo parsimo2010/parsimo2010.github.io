@@ -6,6 +6,10 @@ categories: sdr_project_log
 author_profile: true
 ---
 
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 ## Mixing it down (and up)
 OscarSDR is designed to work up to, and in, the 2-meter amateur radio band (a "ham band").  In much of the world, the 2-meter ham band covers 144 to 148 MHz.  It is called the 2-meter band because radio frequencies that are about 150 MHz have a wavelength of about 2 meters.  Saying "2-meters" is much easier than saying "144-148 MHz band."  
 
@@ -14,6 +18,8 @@ Many people already know this, but radio waves in the 2-meter band can't be seen
 ## The math of frequency conversion
 Frequency conversion is done by multiplying the waves together.  Typically radio waves are described mathematically as a sine wave with frequency $\omega$.  There is a trigonometric identity that says:
 
-$$sin(\omega_1 t) sin(\omega_2 t) = \frac{1}{2} (cos((\omega_1 + \omega_2) t) + cos((\omega_1 - \omega_2) t)$$
+$$sin(\omega_1 t) sin(\omega_2 t) = \frac{1}{2} (cos((\omega_1 + \omega_2) t) + cos((\omega_1 - \omega_2) t).$$
+
+All this means is that if you 
 
 ![The top of the bad board](/assets/images/BadBoard1.png)
